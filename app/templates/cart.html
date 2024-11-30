@@ -1,0 +1,17 @@
+{% extends 'menu.html' %}
+
+{% block title %} {{title}} {% endblock %}
+
+{% block pagename %} <h1>{{title}}</h1> {% endblock %}
+
+{% block menu %}
+            <p><a href="http://127.0.0.1:8000/platform/">{{name_home}}</a></p>
+            <p><a href="http://127.0.0.1:8000/platform/games/">{{name_store}}</a></p>
+            <p><a href="http://127.0.0.1:8000/platform/cart/">{{name_cart}}</a></p>
+{% endblock %}
+
+{% block content %}
+    <h1>{{text}}</h1>
+{% endblock %}
+
+
